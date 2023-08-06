@@ -128,6 +128,13 @@ address {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/people-office.jpg);
+
+
 }
 
 h1.hero-header {
@@ -140,6 +147,7 @@ h1.hero-header {
   letter-spacing: 0.02em;
   color: var(--white);
   background-color: var(--navy-blue);
+
 }
 
 .order {
