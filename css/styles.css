@@ -8,6 +8,7 @@
   --cloud: rgba(244, 244, 253, 1);
   --ocean: rgba(64, 75, 191, 1);
   --light-slate: rgba (142, 143, 153, 1);
+  --success: rgba(49, 208, 170, 1);
 }
 
 body {
@@ -249,6 +250,13 @@ h4 > .element-header {
   margin: 0 auto;
 }
 
+.team-card-sm:hover {
+  color: var(--ocean);
+}
+.social-media.circle:hover {
+  color: var(--success);
+
+}
 .team {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
@@ -421,7 +429,7 @@ h4 > .element-header {
   letter-spacing: 0.02em;
   text-align: center;
 color: var(--navy-blue);  
-
+margin-bottom: 72px;
 }
 
 .costumers-section {
@@ -443,6 +451,8 @@ color: var(--navy-blue);
   display: flex;
   gap: 24px;
 }
+
+
 
 .circle-footer { display: flex;
   justify-content: center;
@@ -467,7 +477,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
-margin-bottom: 16px;
+padding-bottom: 16px;
 
 }
 
