@@ -407,3 +407,56 @@ h4 > .element-header {
   border-radius: 50%;
   background-color: var(--iris);
 }
+
+.circle>svg {
+  width: 16px;
+  height: 16px;
+}
+
+.section-header-costumers {
+ 
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+color: var(--navy-blue);  
+
+}
+
+.costumers-section {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+.circle-footer { display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris);}
+
+  .icons-footer {
+    display: inline-block;
+    margin-left: 120px;
+   
+  }
+.footer-logo {
+  display: inline-block;
+}
+
+.icons-footer>h4 {
+  color: var(--white);
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-bottom: 16px;
+
+}
+
