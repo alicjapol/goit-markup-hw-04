@@ -7,6 +7,7 @@
   --slate: rgba(67, 68, 85, 1);
   --cloud: rgba(244, 244, 253, 1);
   --ocean: rgba(64, 75, 191, 1);
+  --light-slate: rgba (142, 143, 153, 1);
 }
 
 body {
@@ -414,10 +415,9 @@ h4 > .element-header {
 }
 
 .section-header-costumers {
- 
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 color: var(--navy-blue);  
@@ -432,6 +432,17 @@ color: var(--navy-blue);
   padding-bottom: 120px;
 }
 
+.costumers-icons {
+  width: 188px;
+  height: 88px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+.costumers  {
+  display: flex;
+  gap: 24px;
+}
 
 .circle-footer { display: flex;
   justify-content: center;
