@@ -123,7 +123,7 @@ address {
 }
 
 .hero {
-  padding: 188px 0;
+  padding: 188px 0 140px 0;
   background-color: var(--navy-blue);
   display: flex;
   justify-content: center;
@@ -133,11 +133,12 @@ address {
     rgba(46, 47, 66, 0.7)
   ),
   url(../images/people-office.jpg);
+  background-repeat: no-repeat;
 
 
 }
 
-h1.hero-header {
+.hero-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 496px;
@@ -146,7 +147,7 @@ h1.hero-header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
-  background-color: var(--navy-blue);
+
 
 }
 
@@ -185,6 +186,8 @@ h1.hero-header {
 .goals li {
   width: calc((100% - 72px) / 4);
 }
+
+
 
 .list.projects {
   display: flex;
@@ -276,6 +279,7 @@ h4 > .element-header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .footer.element-content {
@@ -369,12 +373,37 @@ h4 > .element-header {
   margin-bottom: 8px;
 }
 
-
-
 .project-card-type, .project-card-type:visited {
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
+}
+
+.goals-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+}
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris);
 }
