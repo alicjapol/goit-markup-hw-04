@@ -253,10 +253,11 @@ h4 > .element-header {
 .team-card-sm:hover {
   color: var(--ocean);
 }
-.social-media.circle:hover {
-  color: var(--success);
 
+.social-media .circle:hover {
+  color: var(--success);
 }
+
 .team {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
