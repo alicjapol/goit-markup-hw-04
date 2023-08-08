@@ -438,6 +438,7 @@ margin-bottom: 72px;
   gap: 24px;
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: var(--white);
 }
 
 .costumers-icons {
@@ -481,3 +482,6 @@ padding-bottom: 16px;
 
 }
 
+.footer-flex {
+  display: flex;
+}
