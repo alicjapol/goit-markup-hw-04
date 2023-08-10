@@ -108,12 +108,6 @@ text-decoration: underline;
   gap: 40px;
 }
 
-.nav:hover,
-.nav:active {
-  text-decoration: underline;
-
-
-}
 
 .contacts {
   color: var(--slate);
@@ -190,12 +184,28 @@ text-decoration: underline;
   background-color: var(--ocean);
 }
 
+.section>.goals {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.presentation {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.team-background {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: var(--cloud);
+
+}
+
 .first-section-studio {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 
 .goals li {
@@ -210,7 +220,6 @@ text-decoration: underline;
   justify-content: space-between;
   margin: 0px;
   row-gap: 24px;
-  margin-bottom: 120px;
 }
 
 .element-header {
@@ -249,8 +258,6 @@ h4 > .element-header {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  padding-top: 120px;
-  padding-bottom: 0 auto;
 }
 
 .section-team {
@@ -259,7 +266,6 @@ h4 > .element-header {
   justify-content: space-between;
   text-align: center;
   row-gap: 24px;
-  padding-bottom: 120px;
   padding-top: 74px;
   margin: 0 auto;
 }
@@ -279,10 +285,6 @@ h4 > .element-header {
   padding: 32px 0px;
   text-align: center;
 
-}
-
-.team-background {
-  background-color: var(--cloud);
 }
 
 .heading-section  {
@@ -335,8 +337,8 @@ h4 > .element-header {
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
-  border: 1px solid var(--cornflower);
-  border-radius: 4px;
+  border:none;
+    border-radius: 4px;
   cursor: pointer;
 }
 
@@ -422,7 +424,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   list-style: none;
 }
 
-.circle {
+.circle>a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,7 +434,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   background-color: var(--iris);
 }
 
-.circle:hover {
+.circle>a:hover {
  background-color: var(--ocean);
 }
 
@@ -465,7 +467,7 @@ margin-bottom: 72px;
 }
 
 .costumers-icons {
-  width: 188px;
+  width: 168px;
   height: 88px;
   fill: var(--light-slate);
   border: 1px solid var(--light-slate);
